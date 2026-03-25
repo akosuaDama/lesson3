@@ -1,0 +1,18 @@
+let name = "Damaris";
+console.log(name);
+let age = 15;
+console.log(age);
+let num1 = 10;
+let num2 = 5;
+console.log(num1 + num2);
+console.log(num1 - num2);
+console.log(num1 * num2);
+console.log(num1 / num2);
+console.log(num1 % num2);
+console.log(15 % 4);
+let isRaining = false;
+console.log(isRaining);
+let x = 15;
+console.log(typeof x);
+let d = "Damaris";
+console.log(typeof d);
