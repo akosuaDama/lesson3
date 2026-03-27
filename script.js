@@ -29,12 +29,28 @@ if (number % 2 == 0){
 }
 
 
+// let name = prompt("Enter your name")
+// let age = prompt("Enter your age")
+// if (age >= 18){
+    // alert(`Hi ${name} you are ${age}years old hence you can sign up for tiktok`)
+    // console.log(`Hi ${name} you are ${age}years old hence you can sign up for tiktok`)
+// } else{
+    // alert(`Hi ${name} , you are ${age}years old hence you can't sign up for tiktok`)
+    // console.log(`Hi ${name} , you are ${age}years old hence you can't sign up for tiktok`)
+// };
 let name = prompt("Enter your name")
 let age = prompt("Enter your age")
-if (age >= 18){
-    alert(`Hi ${name} you are ${age}years old hence you can sign up for tiktok`)
-    console.log(`Hi ${name} you are ${age}years old hence you can sign up for tiktok`)
-} else{
-    alert(`Hi ${name} , you are ${age}years old hence you can't sign up for tiktok`)
-    console.log(`Hi ${name} , you are ${age}years old hence you can't sign up for tiktok`)
+let email = prompt("Enter your email")
+if (age <= 12){
+    alert(`Hi ${name} you are ${age}years old and you are too young to register. Sorry😒😒`)
+    console.log(`Hi ${name} you are ${age}years old and you are too young to register. Sorry😒😒`)
+} else if (age > 12 && age < 18){
+    alert(`Hi ${name} , you are ${age}years old and you have limited options to register for tiktok. We'll keep in touch with you via email ${email} `)
+    console.log(`Hi ${name} , you are ${age}years old and you have limited options to register for tiktok. We'll keep in touch with you via email ${email} `)
+} else if (age > 18){
+    alert(`Hi ${name} , you are ${age}years old and you can register for any option of your choice. We'll keep in touch with you via email ${email} `)
+    console.log(`Hi ${name} , you are ${age}years old and you can register for any option of your choice. We'll keep in touch with you via email ${email} `)
+}else{
+    alert(`Hi ${name} , you are ${age}years old and you must be 12 years or older to register.`)
+    console.log(`Hi ${name} , you are ${age}years old and you must be 12 years or older to register.`)
 };
